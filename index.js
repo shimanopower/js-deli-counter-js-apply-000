@@ -34,9 +34,9 @@ function currentLine(line) {
   return `The line is currently: ${indexAndName.join(', ')}`
 }
 
+let counter = 0
 
 function giveNumber(katzDeliLine) {
-  let counter = 0;
   counter++;
   katzDeliLine.push(counter);
 }
